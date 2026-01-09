@@ -13,23 +13,23 @@ console.log(square(5));
 
 //Hàm in một đối tượng student bồm các thuộc tính name, age và grade
 const printStudent = student => {
-    console.log(`name: ${student.name} age: ${student.age} grade: ${student.grade}`);
+    console.log(`id: ${student.id} name: ${student.name} age: ${student.age} grade: ${student.grade}`);
 }
-let student = {name: 'Charlie', age: 20, grade: 'A'}; 
+let student = {id: 1, name: 'Charlie', age: 20, grade: 'A'}; 
 printStudent(student);
 
 //Khai báo 1 list of students và in từng student trong list bằng hàm printStudent
 const students = [
-    {name: 'David', age: 21, grade: 'B'},
-    {name: 'Eva', age: 22, grade: 'A'},
-    {name: 'Frank', age: 20, grade: 'C'},
-    {name: 'Grace', age: 23, grade: 'B'},
-    {name: 'Hannah', age: 21, grade: 'A'},
-    {name: 'Ian', age: 22, grade: 'C'},
-    {name: 'Jack', age: 20, grade: 'B'},
-    {name: 'Kathy', age: 23, grade: 'A'},
-    {name: 'Leo', age: 21, grade: 'C'},
-    {name: 'Mia', age: 22, grade: 'B'}
+    {id: 2, name: 'David', age: 21, grade: 'B'},
+    {id: 3, name: 'Eva', age: 22, grade: 'A'},
+    {id: 4, name: 'Frank', age: 20, grade: 'C'},
+    {id: 5, name: 'Grace', age: 23, grade: 'B'},
+    {id: 6, name: 'Hannah', age: 21, grade: 'A'},
+    {id: 7, name: 'Ian', age: 22, grade: 'C'},
+    {id: 8, name: 'Jack', age: 20, grade: 'B'},
+    {id: 9, name: 'Kathy', age: 23, grade: 'A'},
+    {id: 10, name: 'Leo', age: 21, grade: 'C'},
+    {id: 11, name: 'Mia', age: 22, grade: 'B'}
 ];
 
 students.forEach(student => {
