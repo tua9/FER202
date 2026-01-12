@@ -1,16 +1,28 @@
 //Khai báo 1 đối tượng student gồm id, name, avartar và grade
 //In ra thông tin của student bằng h1, p và img
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
-import MyCard from './MyCard'
-
-export default function About({ student }) {
+export default function About({ id, name, avatar, grade, age }) {
   return (
-    <MyCard
-      id={student.id}
-      name={student.name}
-      avatar={student.avatar}
-      grade={student.grade}
-      age={student.age}
-    />
+    <Card
+      style={{ width: '18rem', backgroundColor: '#95bee8ff' }}
+      className='m-3'
+    >
+      <Card.Body>
+        <Card.Img
+          variant='top'
+          src={avatar}
+          alt={name}
+          width={200}
+          height={200}
+        />
+        <Card.Title>{name}</Card.Title>
+        <Card.Text>ID: {id}</Card.Text>
+        <Card.Text>Age: {age}</Card.Text>
+        <Card.Text>Grade: {grade}</Card.Text>
+        <Button variant='primary'>Go somewhere</Button>
+      </Card.Body>
+    </Card>
   )
 }
