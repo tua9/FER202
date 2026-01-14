@@ -23,7 +23,8 @@ export default function Student({ student }) {
         }}
       />
       <Card.Body className='d-flex flex-column'>
-        <Card.Title>{student.name}</Card.Title>
+        <Card.Title>ID: {student.id}</Card.Title>
+        <Card.Title>Name: {student.name}</Card.Title>
         <p className='mb-1'>Grade: {student.grade}</p>
         <p className='mb-3'>Age: {student.age}</p>
         <Button variant='primary' className='mt-auto'>
