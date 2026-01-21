@@ -1,9 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel'
+import BannerImage from '../data/BannerImage'
 
-function Banner({ images }) {
+function Banner() {
   return (
     <Carousel pause='hover' style={{ height: '420px' }}>
-      {images.map((image, index) => (
+      {BannerImage.map((image, index) => (
         <Carousel.Item key={index} interval={3000}>
           <img
             className='d-block w-100'

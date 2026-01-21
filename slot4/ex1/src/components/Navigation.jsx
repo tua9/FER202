@@ -1,24 +1,32 @@
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import SearchBar from './SearchBar'
+
+import { Link } from 'react-router-dom'
 
 export default function Navigation() {
   return (
-    <div
-      style={{ background: '#333333', color: 'white' }}
-      className='container-fluid py-3'
-    >
-      <div className='d-flex align-items-center'>
-        <h1 className='me-4 mb-0'>Pizza House</h1>
+    <Navbar bg='white' className='w-100'>
+      <Container fluid>
+        <Navbar.Brand as={Link} to='/'>
+          Pizza App
+        </Navbar.Brand>
 
-        <div className='d-flex gap-4'>
-          <span className='nav-link'>Home</span>
-          <span className='nav-link'>About Us</span>
-          <span className='nav-link'>Contact</span>
-        </div>
+        <Nav className='mx-auto gap-5'>
+          <Nav.Link as={Link} to='/'>
+            Home
+          </Nav.Link>
+          <Nav.Link as={Link} to='/about'>
+            About Us
+          </Nav.Link>
+          <Nav.Link as={Link} to='/contact'>
+            Contact
+          </Nav.Link>
+        </Nav>
 
-        <div className='ms-auto'>
+        <Nav>
           <SearchBar />
-        </div>
-      </div>
-    </div>
+        </Nav>
+      </Container>
+    </Navbar>
   )
 }

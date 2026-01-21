@@ -6,7 +6,7 @@ const PizzaList = [
     oldPrice: '$30.00',
     tag: 'SALE',
     description: 'Classic pizza with tomato sauce, mozzarella and basil.',
-    src: 'image/menu-item-1.jpg',
+    src: '/image/menu-item-1.jpg',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const PizzaList = [
     oldPrice: '$28.00',
     tag: 'NEW',
     description: 'Creamy pizza topped with fresh mushrooms and cheese.',
-    src: 'image/menu-item-2.jpg',
+    src: '/image/menu-item-2.jpg',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const PizzaList = [
     oldPrice: '$35.00',
     tag: 'NEW',
     description: 'Sweet and savory mix of ham, pineapple and cheese.',
-    src: 'image/menu-item-3.jpg',
+    src: '/image/menu-item-3.jpg',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const PizzaList = [
     oldPrice: '$45.00',
     tag: 'SALE',
     description: 'Rich pesto sauce with mozzarella and cherry tomatoes.',
-    src: 'image/menu-item-4.jpg',
+    src: '/image/menu-item-4.jpg',
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const PizzaList = [
     oldPrice: '$30.00',
     tag: 'SALE',
     description: 'Classic pizza with tomato sauce, mozzarella and basil.',
-    src: 'image/menu-item-1.jpg',
+    src: '/image/menu-item-1.jpg',
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const PizzaList = [
     oldPrice: '$28.00',
     tag: 'NEW',
     description: 'Creamy pizza topped with fresh mushrooms and cheese.',
-    src: 'image/menu-item-2.jpg',
+    src: '/image/menu-item-2.jpg',
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const PizzaList = [
     oldPrice: '$35.00',
     tag: 'NEW',
     description: 'Sweet and savory mix of ham, pineapple and cheese.',
-    src: 'image/menu-item-3.jpg',
+    src: '/image/menu-item-3.jpg',
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const PizzaList = [
     oldPrice: '$45.00',
     tag: 'SALE',
     description: 'Rich pesto sauce with mozzarella and cherry tomatoes.',
-    src: 'image/menu-item-4.jpg',
+    src: '/image/menu-item-4.jpg',
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const PizzaList = [
     oldPrice: '$30.00',
     tag: 'SALE',
     description: 'Classic pizza with tomato sauce, mozzarella and basil.',
-    src: 'image/menu-item-1.jpg',
+    src: '/image/menu-item-1.jpg',
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const PizzaList = [
     oldPrice: '$28.00',
     tag: 'NEW',
     description: 'Creamy pizza topped with fresh mushrooms and cheese.',
-    src: 'image/menu-item-2.jpg',
+    src: '/image/menu-item-2.jpg',
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const PizzaList = [
     oldPrice: '$35.00',
     tag: 'NEW',
     description: 'Sweet and savory mix of ham, pineapple and cheese.',
-    src: 'image/menu-item-3.jpg',
+    src: '/image/menu-item-3.jpg',
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const PizzaList = [
     oldPrice: '$45.00',
     tag: 'SALE',
     description: 'Rich pesto sauce with mozzarella and cherry tomatoes.',
-    src: 'image/menu-item-4.jpg',
+    src: '/image/menu-item-4.jpg',
   },
 ]
 
