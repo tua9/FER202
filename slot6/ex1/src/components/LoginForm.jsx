@@ -12,11 +12,13 @@ import {
   Col,
   Alert,
 } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 const LoginForm = ({ onLoginSuccess }) => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const navigate = useNavigate()
 
   const handleLogin = (e) => {
     e.preventDefault()
@@ -24,8 +26,10 @@ const LoginForm = ({ onLoginSuccess }) => {
       setError('Vui lòng nhập đầy đủ thông tin')
       return
     }
-    // Giả lập đăng nhập thành công
-    onLoginSuccess()
+
+    // Giả lập login thành công
+    onLoginSuccess() // Gọi callback để set state ở App
+    navigate('/manage-users') // Điều hướng đến trang ManageUsers
   }
 
   const handleCancel = () => {

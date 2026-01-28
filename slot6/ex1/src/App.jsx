@@ -1,20 +1,22 @@
 // src/App.jsx
 import { useState } from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import LoginForm from './components/LoginForm'
-import ManageUsers from './components/ManageUsers'
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
+  const handleLoginSuccess = () => {
+    setIsLoggedIn(true)
+    // Có thể lưu token vào localStorage nếu dùng auth thật
+    // localStorage.setItem('isLoggedIn', 'true');
+  }
+
   return (
-    <>
-      {!isLoggedIn ? (
-        <LoginForm onLoginSuccess={() => setIsLoggedIn(true)} />
-      ) : (
-        <ManageUsers />
-      )}
-    </>
+    <BrowserRouter>
+      <AppRoutes isLoggedIn={isLoggedIn} onLoginSuccess={handleLoginSuccess} />
+    </BrowserRouter>
   )
 }
 

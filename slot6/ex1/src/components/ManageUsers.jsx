@@ -1,7 +1,13 @@
 // src/components/ManageUsers.jsx
 import { useState } from 'react'
-import { Container, Card } from 'react-bootstrap'
-import UserTable from './UserTable'
+import {
+  Container,
+  Card,
+  Button, // ← Thêm dòng này
+  Badge,
+  Image,
+} from 'react-bootstrap'
+import UserTable from './UserTable' // giả sử bạn đã tách
 import { users } from '../data/ListOfUsers'
 
 const ManageUsers = () => {
