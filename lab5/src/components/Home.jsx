@@ -1,10 +1,8 @@
-// src/components/Home.jsx
 import { Container, Card } from 'react-bootstrap'
 
 export default function Home() {
   return (
     <Container className='py-5'>
-      {/* Phần thông tin tác giả - thu nhỏ lại */}
       <Card
         className='mx-auto shadow-sm border-0'
         style={{ maxWidth: '700px' }}
