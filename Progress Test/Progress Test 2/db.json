@@ -1,0 +1,90 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "username": "admin123",
+      "password": "admin123",
+      "fullName": "Nguyễn Văn Anh"
+    },
+    {
+      "id": "2",
+      "username": "TamNT",
+      "password": "admin123",
+      "fullName": "Nguyễn Thị Tâm"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "2",
+      "userId": "1",
+      "name": "Electricity Bill",
+      "amount": 450000,
+      "category": "Utilities",
+      "date": "03-10-2025"
+    },
+    {
+      "userId": "1",
+      "name": "The 1990s",
+      "amount": 30000000,
+      "category": "Utilities",
+      "date": "05-10-2025",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "name": "Cafe",
+      "amount": 65000,
+      "category": "Food",
+      "date": "07-10-2025"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "name": "Breakfast",
+      "amount": 40000,
+      "category": "Food",
+      "date": "2025-10-01"
+    },
+    {
+      "id": "6",
+      "userId": "2",
+      "name": "Internet Bill",
+      "amount": 250000,
+      "category": "Utilities",
+      "date": "2025-10-03"
+    },
+    {
+      "id": "b37b",
+      "userId": "1",
+      "name": "ACEM Dress",
+      "amount": 66000,
+      "category": "Mua sắm",
+      "date": "06-03-2026"
+    },
+    {
+      "userId": "1",
+      "name": "New Bag",
+      "amount": 10000,
+      "category": "Mua sắm",
+      "date": "06-03-2026",
+      "id": "c755"
+    },
+    {
+      "id": "911a",
+      "userId": "1",
+      "name": "Cinema",
+      "amount": 300000000,
+      "category": "Utilities",
+      "date": "28-03-2026"
+    },
+    {
+      "id": "343f",
+      "userId": "1",
+      "name": "Coke 01",
+      "amount": 12000,
+      "category": "Food",
+      "date": "06-03-2026"
+    }
+  ]
+}
